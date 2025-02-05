@@ -6,7 +6,7 @@ ActualResult=`sh ./volume_calculator.sh`
 echo 'ExpectedResult='$ExpectedResult
 echo 'ActualResult='$ActualResult
 
-if [[ $ExpectedResult == $ActualResult]];
+if [[ $ExpectedResult == $ActualResult ]];
 then
 	echo 'SUCCESS'
 else
