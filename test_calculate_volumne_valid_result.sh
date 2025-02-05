@@ -10,7 +10,7 @@ CalculatedVolume=`sh ./volume_calculator.sh $Height $Width $Length`
 echo 'expected result is '$ExpectedVolume
 echo 'calculated result is '$CalculatedVolume
 
-if [[ $CalculatedVolume eq $ExpectedVolume ]];
+if [[ $CalculatedVolume == $ExpectedVolume ]];
 then 
 	echo 'SUCCESS'
 else
